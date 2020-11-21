@@ -1,0 +1,109 @@
+/*POPULARES*/
+.popular h2 {
+    margin-bottom: 34px;
+    font-size: 1.3rem;
+    color: $color;
+}
+
+.seccion-1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.articulo-1 {
+    justify-content: space-between;
+}
+
+.articulo-1 .block-1 .block-2 {
+    display: flex;
+}
+
+.block-1 {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.block-1 h3 {
+    font-size: 2.5rem;
+    color: #1F3F68;
+    font-weight: bold;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+
+.block-1 p {
+    font-size: 1.4rem;
+    line-height: 30px;
+    opacity: 0.6;
+    margin-bottom: 20%;
+}
+
+.block-1 .footer {
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 15px;
+    color: $color;
+}
+
+.footer .bold {
+    font-weight: bold;
+}
+
+.footer img {
+    margin-right: 20px;
+}
+
+.block-2 {
+    width: 50%;
+}
+
+.seccion-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.varios-articulos {
+    width: 33.33%;
+    margin-right: 40px;
+    align-content: center;
+    
+
+}
+
+.varios-articulos {
+    h3 {
+        font-size: 1.5rem;
+        color: #1F3F68;
+        font-weight: bold;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 30px;
+        opacity: 0.6;
+        margin-bottom: 20%;
+    }
+}
+
+.see-all {
+    display: block;
+    text-align: right;
+    margin-bottom: 25px;
+    color: $color;
+    font-size: 1.5rem;
+}

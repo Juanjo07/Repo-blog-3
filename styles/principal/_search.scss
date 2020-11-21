@@ -1,0 +1,47 @@
+/*search*/
+/*.search .caja {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    margin: auto;
+}
+
+.caja {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 56px;
+}*/
+
+.search .box-a {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.box-a .button-lupa {
+    border: none;
+    background: none;
+}
+
+.box-a .lupa {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.box-a .input-search {
+    flex-grow: 1;
+    height: 10%;
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    opacity: 0.6;
+    font-size: 1.5rem;
+    outline: none;
+}
+

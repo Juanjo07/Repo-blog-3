@@ -1,0 +1,50 @@
+/*ALL ARTICLE*/
+.all-article h2 {
+    font-size: 1.3rem;
+    color: $color;
+    margin: 50px 0px 30px;
+}
+
+.article {
+    display: block;
+    margin-top: 30px;
+}
+
+.caja {
+    display: flex;
+    justify-content: space-between;
+
+    figure {
+        margin-right: 40px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        color: #1F3F68;
+        font-weight: bold;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        opacity: 0.6;
+        margin-bottom: 40px;
+    }
+}
+
+.flechas {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 50px;
+
+    div {
+        display: flex;
+
+        p {
+            margin: 0px 15px;
+        }
+    }
+}
+
